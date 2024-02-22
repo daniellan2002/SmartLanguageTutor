@@ -10,3 +10,31 @@ Acts as an intermediary between the frontend and the OpenAI API. It receives the
 
 
 The app aims to make it easy for users to not only get translations of English phrases into Korean but also to hear the pronunciation, enhancing learning and ensuring correct usage of phrases in real-life conversations. This combination of text and audio output provides a comprehensive tool for language learners, travelers, or anyone interested in Korean language and culture.
+
+
+
+## Setup Instructions:
+
+#### Backend Setup:
+
+Navigate to the /backend directory.
+Install Python dependencies: pip install -r requirements.txt.
+Run the Flask app: python app.py.
+
+
+#### Frontend Setup:
+
+Step 2: Set Up Your Frontend with React
+
+npx create-react-app my-translation-app
+
+cd my-translation-app
+
+npm start
+
+Install Axios for making HTTP requests:
+npm install axios
+
+Navigate to the /frontend directory.
+Install npm packages: npm install.
+Start the React app: npm start.
