@@ -15,26 +15,36 @@ The app aims to make it easy for users to not only get translations of English p
 
 ## Setup Instructions:
 
-#### Backend Setup:
+### Backend Setup:
 
-Navigate to the /backend directory.
-Install Python dependencies: pip install -r requirements.txt.
-Run the Flask app: python app.py.
+####  Step 1: Navigate to the /backend directory.
+
+#### Step 2: Install Python dependencies: 
+- pip install -r requirements.txt
+
+#### Step 3: Run the Flask app: 
+- python app.py.
 
 
-#### Frontend Setup:
+### Frontend Setup:
 
-Step 2: Set Up Your Frontend with React
+#### Step 1: Set Up Your Frontend with React
 
-npx create-react-app my-translation-app
+- npx create-react-app my-translation-app
 
-cd my-translation-app
+- cd my-translation-app
 
-npm start
+- npm install
 
-Install Axios for making HTTP requests:
-npm install axios
+- npm start
 
-Navigate to the /frontend directory.
-Install npm packages: npm install.
-Start the React app: npm start.
+
+#### Step 2: Install Axios for making HTTP requests:
+- npm install axios
+
+
+## Testing Backend
+
+### Simple Curl Command:
+-  curl -X POST http://127.0.0.1:5000/translate -H "Content-Type: application/json" -d '{"query":"Hello, how are you?"}'
+
